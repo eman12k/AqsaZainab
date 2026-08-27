@@ -1,0 +1,148 @@
+/* ===== RESET & BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== FOOTER CONTAINER ===== */
+#main-footer {
+  background-color: white; /* Dark premium background */
+  color: #e0e0e0;
+  padding: 2% 1% 0 1%;
+  font-family: "Roboto", sans-serif;
+  width: auto;
+  height: auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  padding-top: 4%;
+}
+
+img {
+  width: 63%;
+  align-items: flex-start;
+}
+
+/* Tagline */
+.tagline {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #000021;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+/* ===== PAYMENT SECTION ===== */
+.payment-section {
+  margin-top: 5px;
+}
+
+.payment-title {
+  font-size: 1rem;
+  font-weight: 350;
+  color: #f30000;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.payment-icons-list {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  padding: 0;
+}
+
+/* YEH HAI WO EMPTY PLACEHOLDERS (SVG ki jagah) */
+.payment-item {
+  width: 58px;
+  height: 38px;
+
+  border-radius: 6px;
+  border: 1.5px solid #3a3a3a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.3s ease;
+}
+
+/* ===== RIGHT COLUMN (QUICK LINKS) ===== */
+.footer-links {
+  /* flex: 2 1 450px;  */
+  display: flex;
+  width: 30%;
+  height: 30%;
+  gap: 35%;
+}
+
+.links-heading {
+  font-size: 1.1rem;
+  font-weight: 650;
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+/* Links Grid */
+.link-grid {
+  list-style: none;
+}
+
+.link-grid li a {
+  color: gray;
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  transition:
+    color 0.25s ease,
+    padding-left 0.2s ease;
+  display: inline-block;
+  position: relative;
+}
+.link-grid li a:hover {
+  color: black;
+}
+
+/* Contact information */
+
+#Contact_info{
+    margin:auto;
+    height:auto;
+    text-align: center;
+    align-items: center;
+    margin:2%;
+}
+#Contact{
+    color:black;
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+#Contact span{
+    margin-right:4%;
+}
+#Contact i{
+    margin-right:1%;
+}
+#social_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:2%;
+    font-size:350%;
+    gap:0.3%;
+}
+#author{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 2%;
+    color:#8F918F;
+    font-size: small;
+}

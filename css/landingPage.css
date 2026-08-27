@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* Bg_video */
+ #bg_video {
+    position:absolute;         
+    top: 0;
+    left: 0;
+    min-width: 100%;          
+    min-height: 100%;         
+    width: auto;
+    height: auto;
+    z-index: -1;          
+    object-fit: cover;        
+}
+
+#content {
+  padding-top: 25%;
+  padding-bottom: 13%;
+  text-align: center;
+  align-items: center;
+}
+#content h1 {
+  color: #ffffff;
+}
+#content button {
+  color: #000000;
+  background-color: white;
+  padding: 0.7% 1.3% 0.7% 1.3%;
+  margin-top: 1.5%;
+  font-size: medium;
+  font-weight: 600;
+  border: none;
+}
+#content button:hover {
+  background-color: #9e9c9c;
+}
+/* Abaya_Sale */
+#full_size_img img{
+    width:100%;
+}
+#card_box{
+    display:flex;
+    justify-content: center;
+    padding-top:1%;
+    gap:2%;
+}

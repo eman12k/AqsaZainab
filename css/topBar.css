@@ -1,0 +1,72 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* Topbar */
+/* Topbar Sale */
+#topbar {
+  width: auto;
+  height: auto;
+}
+#topbar_bg {
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+}
+#topbar_sale {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: Arial, sans-serif;
+}
+/* Topbar Logo and Icons */
+#topbar_logo_icons {
+  background-color: #ffffff;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+#topbar_logo_icons_search {
+  display: flex;
+  justify-content: center;
+  gap: 30%;
+  align-items: center;
+}
+#topbar_logo_icons_search img {
+  width: 12%;
+}
+#topbar_logo_icons_search i {
+  font-size: large;
+  color: #222222;
+}
+
+#topbar_social i {
+  font-size: xx-large;
+  margin-right: 10px;
+  color: #f43b3b;
+}
+/* Navigation Bar */
+#topbar_navigation_bar {
+  background-color: #eeeeee;
+}
+#navigation_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+#navigation_bar a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size:medium;
+  font-weight: lighter;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  padding-top:1.4%;
+  padding-bottom:1.4%;
+}
+#navigation_bar a:hover {
+  color: #e02605;
+}
